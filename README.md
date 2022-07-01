@@ -12,6 +12,9 @@ Accept-Encoding: gzip, deflate
 Referer: https://target.com
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
 once everything is added just send the request to the target and you will get the following response or similar
 -----------------------------------------------------------------------------------------------------------------------------------------
 HTTP/2 200 OK
@@ -31,3 +34,6 @@ Allow: GET
 Access-Control-Allow-Origin: http://test.com
 Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
 Access-Control-Allow-Credentials: true
+
+
+2. once the bug is found then you go and exploit it using the cors.html file, just replace target.com with your target
